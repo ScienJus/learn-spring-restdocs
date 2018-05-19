@@ -1,8 +1,9 @@
 pages:
   stage: deploy
   script:
-    - mvn clean package -U
-    - mv ./target/generated-docs/ public
+#    - mvn clean package -U
+#    - mv ./target/generated-docs/ public
+    - echo 'crash on gitlab ci, using pages manually'
   artifacts:
     paths:
       - public
