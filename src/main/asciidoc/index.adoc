@@ -1,0 +1,8 @@
+= Learn Spring REST Docs
+:toc: left
+
+Learn how to use Spring REST Docs based on Spring Boot2 and JUnit5.
+
+== /hello: Say "Hello World!"
+
+operation::hello[]

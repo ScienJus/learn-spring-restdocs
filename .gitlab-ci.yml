@@ -1,0 +1,11 @@
+pages:
+  stage: deploy
+  script:
+    - mvn clean package -U
+    - mv ./target/generated-docs/ public
+  artifacts:
+    paths:
+      - public
+    expire_in: 1 week
+  only:
+    - master
