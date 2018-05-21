@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping("hello")
     public Result hello(@RequestParam("name") String name) {
-        return new Result(200 , String.format("Hello %s!", name));
+        return new Result(200, String.format("Hello %s!", name));
     }
 }
